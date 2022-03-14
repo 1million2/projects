@@ -26,6 +26,11 @@ a:hover {
 .line {
   border-top: 1px solid #666666;
 }
+.certificate-link {
+  letter-spacing: 2px;
+  background-color: #3c3c3c;
+  text-decoration: underline;
+}
 
 .container {
   width: 100%;
@@ -72,6 +77,7 @@ header .title {
 
 .main-body {
   display: flex;
+  margin-bottom: 30px;
 }
 
 .main-body .aside {
@@ -79,7 +85,7 @@ header .title {
   flex-direction: column;
   width: 300px;
 }
-.aside-block {
+.aside-block:not(:last-child) {
   margin-bottom: 50px;
 }
 .heading {
@@ -166,6 +172,10 @@ code {
   }
   .projects-body {
     justify-content: space-around;
+    row-gap: 30px;
+  }
+  .aside-block {
+    margin-bottom: 50px;
   }
 }
 @media (max-width: 415px) {
@@ -173,7 +183,8 @@ code {
     flex-basis: 100%;
   }
   .projects .project__img {
-    width: 100%;
+    width: 95%;
+    margin: 0 auto 15px auto;
   }
   .projects {
     margin-bottom: 20px;
