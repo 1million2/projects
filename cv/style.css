@@ -105,6 +105,13 @@ header .title {
   margin: 20px 0 15px 0;
 }
 
+.aside__list-item span {
+  color: chartreuse;
+}
+.contacts a {
+  text-decoration: underline;
+}
+
 .main-body .content {
   display: flex;
   flex: 1 1;
