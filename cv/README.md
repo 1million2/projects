@@ -1,0 +1,2 @@
+- [my CV](https://1million2.github.io/projects/cv/)
+- [my CV Markdown](https://1million2.github.io/rsschool-cv/cv)
